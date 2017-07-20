@@ -1,0 +1,17 @@
+{application, cowboy_example,
+ [{description, "A simple cowboy example"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { cowboy_example_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
